@@ -1,0 +1,111 @@
+body{
+    min-height:95vh;
+     background-image:url(/RF\ bg\ image.png); 
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center; 
+    /* background-color: black; */
+}
+.mainbox{
+    border:8px solid rgb(17, 17, 32);
+    width:1120px;
+    margin:auto;
+    position: relative;
+    bottom: -130px;
+    top: 80px;
+    border-radius:10px;
+}
+.fimg{
+    display:block;
+    position: relative;
+    right: -516px;
+}
+.fc{
+    background-color: white;
+    display: inline-block;
+    position: absolute;
+    top: 0px;
+    width: 592px;
+    height: 605px;
+    margin: 0px 0px;
+}
+.center{
+    font-size: larger;
+    font-weight: bolder;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 360px;
+    margin: auto;
+    padding:20px;
+}
+.center input{
+    margin-top:5px; margin-bottom:5px;
+    padding: 12px 68px;
+    border-radius: 4px;
+}
+.btn input:hover{
+    color:white;
+    background-color: black;
+}
+.btn{
+    margin:0px -30px;
+}
+.heading{
+    text-align: center;
+    position: relative;
+    bottom: -64px;
+    font-size: 45px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* width: 1298px; */
+} <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RF FORM</title>
+    <link rel="stylesheet" href="RF.css">
+</head>
+<body>
+    <h1 class="heading">Student Registration Form</h1>
+    <header class="mainbox">
+        <img class="fimg" src="/f image.png" alt="Error">
+        <form action="backend.*">
+            <div class="fc">
+                <div class="center">
+                    <div>
+                        <label for="fname">First Name:</label><br>
+                        <input type="text" name="my fname" id="fname" placeholder="First Name">
+                    </div>
+                    <div>
+                        <label for="lname">Last Name:</label><br>
+                        <input type="text" name="my lname" id="lname" placeholder="Last Name">
+                    </div>
+                    <div>
+                        <label for="email">E-mail:</label><br>
+                        <input type="email" name="my email" id="email" placeholder="E-mail">
+                    </div>
+                    <div>
+                        <label for="phone">Phone:</label><br>
+                        <input type="number" name="my number" id="phone" placeholder="Number">
+                    </div>
+                    <div>
+                        <label for="pass">Password:</label><br>
+                        <input type="password" name="my pass" id="pass" placeholder=Password>
+                        <input type="password" name="my cn pass" placeholder="Conform Password">
+                    </div>
+                    <div>
+                        Gender:<br>
+                        Male<input type="radio" name="my gender">
+                        Fe-Male<input type="radio" name="my gender">
+                        0thers<input type="radio" name="my gender">
+                    </div>
+                    <div class="btn">
+                        <input type="reset" name="my reset">
+                        <input type="submit" name="my submit">
+                    </div>
+                </div>
+            </div>
+        </form>
+    </header>
+</body>
+ </html>  
